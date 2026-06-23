@@ -1,0 +1,13 @@
+---
+project:
+  title: "GLM-5.2 NanoCore V3"
+  author: "Principal ASIC Design Engineer"
+  discord: ""
+  description: "Synchronous neuromorphic MAC tile with hardwired weights for ultra-low latency inference. 8-bit input, 8-bit output, SkyWater 130nm PDK. Overflow-free 13-bit internal datapath."
+  language: "Verilog"
+  clock_hz: 100000000
+  tiles: "1x1"
+  top_module: "glm5_nanocore"
+  type: "Digital"
+  source_files:
+    - "src/glm5_nanocore.v"
