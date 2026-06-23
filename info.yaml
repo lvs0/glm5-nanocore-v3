@@ -1,9 +1,10 @@
 ---
+yaml_version: 6
 project:
-  title: "GLM-5.2 NanoCore V3"
-  author: "Principal ASIC Design Engineer"
+  title: "GLM-5.2 NanoCore V3-FINAL"
+  artist: "lvs0"
   discord: ""
-  description: "Synchronous neuromorphic MAC tile with hardwired weights for ultra-low latency inference. 8-bit input, 8-bit output, SkyWater 130nm PDK. Overflow-free 13-bit internal datapath."
+  description: "Synchronous neuromorphic MAC tile with overflow-free 15/21-bit internal datapath. Hardwired weights, 100 MHz, SkyWater 130nm."
   language: "Verilog"
   clock_hz: 100000000
   tiles: "1x1"
