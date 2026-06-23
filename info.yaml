@@ -8,7 +8,7 @@ project:
   language: "Verilog"
   clock_hz: 100000000
   tiles: "1x1"
-  top_module: "glm5_nanocore"
+  top_module: "tt_um_glm5_nanocore"
   type: "Digital"
   source_files:
     - "src/glm5_nanocore.v"

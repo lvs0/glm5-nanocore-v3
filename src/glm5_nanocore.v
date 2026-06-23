@@ -24,7 +24,7 @@
 
 `timescale 1ns / 1ps
 
-module glm5_nanocore (
+module tt_um_glm5_nanocore (
     input  wire clk,
     input  wire rst_n,
     input  wire [7:0] in,
